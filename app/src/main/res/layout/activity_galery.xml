@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bag2"
     tools:context=".GaleryActivity">
 
     <ScrollView
@@ -56,7 +57,7 @@
 
                 <!--                            pembuka menu 1-->
                 <androidx.cardview.widget.CardView
-                    android:onClick="albumpelantikanosis"
+                    android:onClick="osis"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -91,10 +92,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
+                            android:layout_marginLeft="40dp"
                             android:textStyle="bold"
-                            android:textSize="20dp"
-                            android:text="KEGIATAN PELANTIKAN OSIS">
+                            android:textSize="15dp"
+                            android:text="KEGIATAN PEMILIHAN CALON &amp; WAKIL KETUA OSIS">
 
                         </TextView>
 
@@ -107,7 +108,6 @@
                 <!--                            pembuka menu 2-->
 
                 <androidx.cardview.widget.CardView
-                    android:onClick="albumperpisahan"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -142,10 +142,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
+                            android:layout_marginLeft="40dp"
                             android:textStyle="bold"
-                            android:textSize="20dp"
-                            android:text="ALBUM KEGIATAN ">
+                            android:textSize="15dp"
+                            android:text="ALBUM KEGIATAN...">
 
                         </TextView>
 
@@ -158,7 +158,6 @@
 
                 <!--                            pembuka menu 3-->
                 <androidx.cardview.widget.CardView
-                    android:onClick="albumkegiatankemahbudaya"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -193,10 +192,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:layout_marginLeft="50dp"
+                            android:layout_marginLeft="40dp"
                             android:textStyle="bold"
-                            android:textSize="20dp"
-                            android:text="KEGIATAN KEMAH BUDAYA">
+                            android:textSize="15dp"
+                            android:text="ALBUM KEGIATAN ...">
 
                         </TextView>
                     </LinearLayout>

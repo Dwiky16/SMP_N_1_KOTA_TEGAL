@@ -2,6 +2,7 @@ package com.example.smpn1kotategal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -13,12 +14,8 @@ public class GaleryActivity extends AppCompatActivity {
         setContentView(R.layout.activity_galery);
     }
 
-    public void albumpelantikanosis(View view) {
-    }
-
-    public void albumperpisahan(View view) {
-    }
-
-    public void albumkegiatankemahbudaya(View view) {
+    public void osis(View view) {
+        Intent intent = new Intent(com.example.smpn1kotategal.GaleryActivity.this, PemilihanOsisActivity.class);
+        startActivity(intent);
     }
 }

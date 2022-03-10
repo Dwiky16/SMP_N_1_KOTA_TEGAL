@@ -32,6 +32,8 @@ public class EkstraActivity extends AppCompatActivity {
     }
 
     public void pramuka(View view) {
+        Intent intent = new Intent(com.example.smpn1kotategal.EkstraActivity.this, PramukaActivity.class);
+        startActivity(intent);
     }
 
     public void pmr(View view) {

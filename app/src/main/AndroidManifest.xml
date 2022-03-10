@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN1KOTATEGAL">
         <activity
+            android:name=".yhhActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PemilihanOsisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PramukaActivity"
+            android:exported="false" />
+        <activity
             android:name=".Buku7Activity"
             android:exported="false" />
         <activity
