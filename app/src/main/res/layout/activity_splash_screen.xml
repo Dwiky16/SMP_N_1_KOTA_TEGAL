@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag2"
+    android:background="@drawable/bag"
     tools:context=".SplashScreenActivity">
 
     <LinearLayout
@@ -14,8 +14,8 @@
         android:gravity="center" >
 
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="300dp"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:src="@drawable/logo"/>
@@ -26,7 +26,7 @@
             android:text="SMP N 1 KOTA TEGAL"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="20dp"
+            android:textSize="15dp"
             android:textColor="#000"/>
 
     </LinearLayout>

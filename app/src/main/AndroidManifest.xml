@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN1KOTATEGAL">
         <activity
+            android:name=".FunBikeActivity"
+            android:exported="false" />
+        <activity
             android:name=".yhhActivity"
             android:exported="false" />
         <activity

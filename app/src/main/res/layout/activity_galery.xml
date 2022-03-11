@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag2"
+    android:background="@drawable/bag"
     tools:context=".GaleryActivity">
 
     <ScrollView
@@ -15,35 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="188dp">
-
-                <ViewFlipper
-                    android:id="@+id/viewFlipper"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/poster2"/>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/poster3"/>
-
-                    <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:scaleType="fitXY"
-                        android:src="@drawable/poster1"/>
-                </ViewFlipper>
-            </RelativeLayout>
 
             <GridLayout
                 android:id="@+id/mainGrid"
@@ -63,7 +34,7 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
@@ -73,7 +44,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="#FF8C"
+                        android:background="#6495ED"
                         android:orientation="horizontal">
 
 
@@ -84,7 +55,7 @@
                             android:layout_gravity="center"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/seven">
+                            android:src="@drawable/vote">
 
                         </ImageView>
 
@@ -108,12 +79,13 @@
                 <!--                            pembuka menu 2-->
 
                 <androidx.cardview.widget.CardView
+                    android:onClick="funbike"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
@@ -123,7 +95,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_gravity="center"
-                        android:background="@color/purple_200"
+                        android:background="#FF7F50"
                         android:orientation="horizontal">
 
 
@@ -134,7 +106,7 @@
                             android:layout_gravity="center"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/eight">
+                            android:src="@drawable/bicycle">
 
                         </ImageView>
 
@@ -145,7 +117,7 @@
                             android:layout_marginLeft="40dp"
                             android:textStyle="bold"
                             android:textSize="15dp"
-                            android:text="ALBUM KEGIATAN...">
+                            android:text="KEGIATAN FUN BIKE GURU &amp; STAF SMP 1 TEGAL">
 
                         </TextView>
 
@@ -163,7 +135,7 @@
                     android:layout_rowWeight="1"
                     android:layout_columnWeight="1"
                     android:layout_marginLeft="12dp"
-                    android:layout_marginTop="3dp"
+                    android:layout_marginTop="5dp"
                     android:layout_marginRight="12dp"
                     android:layout_marginBottom="12dp"
                     app:cardCornerRadius="8dp"
@@ -184,7 +156,7 @@
                             android:layout_gravity="center"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/nine">
+                            android:src="@drawable/campingtent">
 
                         </ImageView>
 

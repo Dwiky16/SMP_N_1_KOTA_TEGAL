@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag2"
+    android:background="@drawable/bag"
     tools:context=".PerpusActivity">
 
     <FrameLayout
@@ -77,7 +77,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
-                                android:background="#4B0082"
+                                android:background="#87CEFA"
                                 android:orientation="horizontal">
 
 
@@ -129,7 +129,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
-                                android:background="#FF8C"
+                                android:background="#9370DB"
                                 android:orientation="horizontal">
 
 

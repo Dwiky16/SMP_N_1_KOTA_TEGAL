@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag2"
+    android:background="@drawable/bag"
     tools:context=".PemilihanOsisActivity">
 
     <ScrollView
@@ -48,10 +48,10 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
 
-                                    <ImageView
-                                        android:layout_width="400dp"
-                                        android:layout_height="400dp"
-                                        android:src="@drawable/osis1"/>
+                                    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="300dp"
+                                        app:src="@drawable/osis1"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -64,10 +64,10 @@
                                     android:layout_weight="1"
                                     android:orientation="vertical">
 
-                                    <ImageView
-                                        android:layout_width="400dp"
-                                        android:layout_height="400dp"
-                                        android:src="@drawable/osis2"/>
+                                    <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                        android:layout_width="300dp"
+                                        android:layout_height="300dp"
+                                        app:src="@drawable/osis2"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -101,10 +101,10 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <ImageView
-                                    android:layout_width="400dp"
-                                    android:layout_height="400dp"
-                                    android:src="@drawable/osis1"/>
+                                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="300dp"
+                                    app:src="@drawable/osis1"/>
 
                             </LinearLayout>
                             <RelativeLayout
@@ -117,10 +117,10 @@
                                 android:layout_weight="1"
                                 android:orientation="vertical">
 
-                                <ImageView
-                                    android:layout_width="400dp"
-                                    android:layout_height="400dp"
-                                    android:src="@drawable/osis2"/>
+                                <com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView
+                                    android:layout_width="300dp"
+                                    android:layout_height="300dp"
+                                    app:src="@drawable/osis2"/>
 
                             </LinearLayout>
                             <RelativeLayout
