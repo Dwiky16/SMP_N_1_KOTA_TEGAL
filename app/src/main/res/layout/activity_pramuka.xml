@@ -84,7 +84,7 @@
                                         android:layout_height="500dp"
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginTop="70dp"
-                                        android:src="@drawable/poster2"/>
+                                        android:src="@drawable/pramuka"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -102,7 +102,7 @@
                                         android:layout_height="500dp"
                                         android:layout_marginTop="70dp"
                                         android:layout_marginRight="12dp"
-                                        android:src="@drawable/poster2"/>
+                                        android:src="@drawable/pramuka"/>
 
                                 </LinearLayout>
                                 <RelativeLayout
@@ -116,11 +116,12 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
                             android:textColor="#000"
-                            android:text="Karate adalah seni bela diri yang berasal dari Jepang. Seni bela diri ini sedikit dipengaruhi oleh Seni bela diri Cina kenpō. Karate dibawa masuk ke Jepang lewat Okinawa dan mulai berkembang di Ryukyu Islands."/>
+                            android:text="Gerakan Pramuka adalah nama organisasi pendidikan nonformal yang menyelenggarakan pendidikan kepanduan di Indonesia. Kata ''Pramuka'' merupakan singkatan dari Praja Muda Karana, yang memiliki arti Jiwa Muda yang Suka Berkarya."/>
 
 
                     </LinearLayout>

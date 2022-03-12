@@ -353,7 +353,7 @@
                         android:layout_column="1"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
-                        android:text="VISI"
+                        android:text="VISI SEKOLAH"
                         android:textColor="#0000FF"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -371,7 +371,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
-                            android:text="Meningkatkan keimanan ketaqwaan, Ilmu pengetahuan teknologi, literasi dan dalam menampung kreatifitas, inspirasi serta aspirasi anak sehingga berkualitas, berprestasi, berwawasan luas dan berakhlak yang baik dengan berlandaskan kejujuran, keadilan, amanah, disiplin dan tanggung jawab"
+                            android:text="''Terwujudnya insan Indonesia yang beriman dan bertaqwa, santun, berprestasi, berwawasan lingkungan,serta mampu berkompetisi ditingkat nasional maupun internasional''"
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -407,7 +407,7 @@
                         android:layout_column="1"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
-                        android:text="MISI"
+                        android:text="MISI SEKOLAH"
                         android:textColor="#0000FF"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -424,9 +424,20 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="Untuk mencapai visi di atas, SMP Negeri 1 Tegal merumuskan Misi sebagai berikut :"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="1. Menumbuhkan rasa keimanan dan ketaqwaan kepada Tuhan yang maha esa."
+                            android:text="Mewujudkan peserta didik yang beriman dan bertaqwa."
                             android:textColor="#000"/>
 
                         <TextView
@@ -436,7 +447,7 @@
                             android:layout_marginRight="12dp"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="2. Meningkatkan perilaku yang baik dengan mematuhi tata tertib disekolah."
+                            android:text="Menantikan budi pekerti luhur melalui pembelajaran, pendidikan karakter, dan penanaman jiwa nasionalisme."
                             android:textColor="#000"/>
 
                         <TextView
@@ -446,7 +457,7 @@
                             android:layout_marginRight="12dp"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="3. Memajukan berbagai prestasi dengan mengadakan lomba-lomba dibidang akademik maupun non akademik."
+                            android:text="Mewujudkan proses pembelajaran dan pembimbingan yang mengarah pada penggalian potensi peserta didik sehingga dapat berprestasi baik dibidang akademik maupun non akademik."
                             android:textColor="#000"/>
 
                         <TextView
@@ -456,7 +467,7 @@
                             android:layout_marginRight="12dp"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="4. Meningkatkan literasi agar lebih maju dan berkembang serta menyenangkan."
+                            android:text="Menanamkan kesadaran kepada seluruh warga sekolah tentang pentingnya menjaga kelestarian lingkungan."
                             android:textColor="#000"/>
 
                         <TextView
@@ -464,17 +475,17 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:text="Mewujudkan proses pembelajaran, dan pembimbingan secara efektif sehingga dapat mengarahkan peserta didik untuk beradaptasi dan berkompetisi secara global."
+                            android:textColor="#000"
                             android:textSize="15sp"
-                            android:textStyle="bold"
-                            android:text="5. Bekerja sama dengan guru supaya setiap pelajaran mengadakan sebuah game sesuai materinya, agar menambah minat siswa terhadap mapel tersebut."
-                            android:textColor="#000"/>
+                            android:textStyle="bold" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="6. Memajukan uks SMPN 1 Tegal dan melaksanakan program senam serta jalan sehat."
+                            android:text="Mewujudkan proses pembelajaran yang menggunakan ICT dan bahasa Internasional."
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -485,7 +496,7 @@
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
                             android:layout_marginBottom="12dp"
-                            android:text="7. Meningkatkan ekskul'' yang ada disekolah dengan lancar dan siswa dapat mengembangkan bakatnya melalui kegiatan ekstrakulikuler tersebut."
+                            android:text="Menciptakan lingkungan sekolah yang bersih dan sehat sehingga kondusif untuk belajar."
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -521,7 +532,7 @@
                         android:layout_column="1"
                         android:layout_marginLeft="80dp"
                         android:layout_marginTop="20dp"
-                        android:text="PROGRAM KERJA"
+                        android:text="TUJUAN SMP N 1 TEGAL"
                         android:textColor="#0000FF"
                         android:textSize="20sp"
                         android:textStyle="bold" />
@@ -538,7 +549,8 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
-                            android:text="-Mengadakan acara peringatan untuk hari raya berbagai agama yang ada di sekolah."
+                            android:layout_marginBottom="5dp"
+                            android:text="Sekolah mampu memenuhi /menghasilkan pemetaan 8 standar kompetensi, kompetensi dasar, dan indikator untuk kelas 7 dan 9 semua mata pelajaran pada tahun 2013/2014"
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold" />
@@ -548,30 +560,77 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="-Melakukan penggalangan dana untuk bakti sosial dan juga yang terkena musibah."/>
+                            android:text="Sekolah mampu memenuhi/menghasilkan dokumen KTSP berbasis karakter untuk kelas 8 dan 9 serta implementasi kurikulum 2013 untuk kelas 7."/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="-Melakukan kerja bakti di lingkungan sekolah."/>
+                            android:text="Sekolah mampu memenuhi/menghasilkan standar proses pembelajaran berbasis ICT meliputi : tercapai/telah dibuat/ditetapkan melaksanakan pembelajaran dengan strategi/metode : CTL, pendekatan belajar tuntas, pendekatan pembelajaran individual, dan lain-lain secara lengkap termasuk pembelajaran diluar kelas/sekolah."/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="12dp"
                             android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="-Melakukan gerakan anti perundungan bully karena masih ada buli secara verbal."/>
+                            android:text="Sekolah mampu memenuhi/menghasilkan standar pendidik dan tenaga kependidikan yang professional meliputi : semua guru berkualitas minimal S1, semua mengajar sesuai bidangnya, mampu berbahasa inggris, mampu menggunakan TIK dan lain-lain."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Sekolah mampu memenuhi/menghasilkan standar pengelolaan sekolah meliputi: semua sarpras, fasilitas, peralatan, dan perawatan yang baik."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Sekolah mampu memenuhi/menghasilkan standar pengelolaan sekolah meliputi : pencapaian standar pengelolaan : pembelajaran, kurikulum, sarpras, SDM, kesiswaan, administrasi, dan lain-lain secara lengkap, berbasis TIK."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Sekolah mampu memenuhi/menghasilkan standar penilaian pendidikan yang relevan."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Sekolah mampu memenuhi pengembangan budaya mutu sekolah yang memadai."/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -582,7 +641,106 @@
                             android:textColor="#000"
                             android:textSize="15sp"
                             android:textStyle="bold"
-                            android:text="-Mengadakan pentas seni secara berkala sebagai ajang untuk menyalurkan bakat siswa."/>
+                            android:text="Sekolah mampu mewujudkan lingkungan sekolah dengan menerapkan budaya bersih sebagai sekolah adiwiyata di Kota Tegal."/>
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_marginRight="12dp"
+                        android:src="@drawable/logo" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:text="SEJARAH SINGKAT SMP N 1 TEGAL"
+                        android:textColor="#0000FF"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="75dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="SMP Negeri 1 Tegal, telah ada dijaman penjajahan Belanda semula bernama MULO (Meer Vitgebried Leger Ondenwijs) setingkat SMP berdiri tahun 1929, merupakan sekolah tertua di wilayah Kota Tegal dan sekitarnya. Pada awal berdiri hanya putra-putra Belanda dan kalangan ningrat saja yang dapat bersekolah disitu."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Setelah Indonesia Merdeka, namanya berubah menjadi SMP Tegal. Pada tahun 1958 namanya berubah menjadi SMP Negeri 1 Tegal."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Guru didalam menyampaikan materi pelajaran berpengantar bahasa Inggris. Tahun 2005 menjadi Sekolah Standar Nasional berdasarkan SK Direktur Pendidikan Lanjutan Pertama No. : 960/C3/KP/2005, dari hasil monitoring dan evaluasi tahun 2006 dari Direktorat Pembinaan Sekolah Menengah Pertama dengan SK No. 2270/C3/LL/2006. SMP Negeri 1 Tegal merupakan kategori baik."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="5dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Berdasarkan hasil ferifikasi dan penilaian dari konsultan yang ditunjuk Direktorat Jenderal Manajemen Pendidikan Dasar, SMP Negeri 1 Tegal terpilih menjadi rintisan Jenderal Manajemen Pendidikan Dasar, SMP Negeri 1 Tegal terpilih menjadi Rintisan Sekolah Bertaraf Internasional untuk tahun ajaran 2007/2008."/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:textColor="#000"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            android:text="Dengan surat pemanggilan mengikuti workshop Rintisan Sekolah Bertaraf Internasional No. 1931/C3/PP/2006 dan SK Direktorat Pembinaan SMP Dirjen Manajemen Pendidikan Dasar dan Menengah Depdiknas No. 543/C3/Kep/2007 tanggal, 14 Maret 2007."/>
 
                     </LinearLayout>
 

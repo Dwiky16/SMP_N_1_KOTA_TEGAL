@@ -9,9 +9,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.Toast;
 import android.widget.ViewFlipper;
 
 public class MainActivity extends AppCompatActivity {
+    private long backPress;
+    private Toast backToast;
+
     ViewFlipper viewFlipper;
     Animation fadein, fadeout;
 
@@ -31,6 +35,19 @@ public class MainActivity extends AppCompatActivity {
         viewFlipper.setAutoStart(true);
         viewFlipper.setFlipInterval(5000);
         viewFlipper.startFlipping();
+    }
+
+    @Override
+    public void onBackPressed() {
+        if (backPress + 2000 > System.currentTimeMillis()){
+            backToast.cancel();
+            super.onBackPressed();
+            return;
+        }else{
+            backToast = Toast.makeText(getBaseContext(), "Tekan sekali lagi untuk keluar", Toast.LENGTH_LONG);
+            backToast.show();
+        }
+        backPress = System.currentTimeMillis();
     }
 
     public void profil(View view) {

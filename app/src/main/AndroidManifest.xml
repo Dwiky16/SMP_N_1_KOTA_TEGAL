@@ -13,9 +13,6 @@
             android:name=".FunBikeActivity"
             android:exported="false" />
         <activity
-            android:name=".yhhActivity"
-            android:exported="false" />
-        <activity
             android:name=".PemilihanOsisActivity"
             android:exported="false" />
         <activity
