@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag"
+    android:background="@drawable/bag3"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -67,10 +67,12 @@
                     android:padding="1dp"
                     android:layout_weight="1">
 
-                    <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
-                        android:src="@drawable/profil"/>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="22472-campus-library-school-building-maison-002-mocca-animation.json"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -93,10 +95,12 @@
                     android:orientation="vertical"
                     android:layout_weight="1">
 
-                    <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
-                        android:src="@drawable/guru"/>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="88670-businessman-animation.json"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -130,10 +134,12 @@
                     android:padding="1dp"
                     android:layout_weight="1">
 
-                    <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
-                        android:src="@drawable/fasilitas"/>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="34021-computer-line-icon.json"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -156,10 +162,12 @@
                     android:orientation="vertical"
                     android:layout_weight="1">
 
-                    <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
-                        android:src="@drawable/perpus"/>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="74124-mobile-replacing-book-animation.json"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -193,10 +201,12 @@
                     android:padding="1dp"
                     android:layout_weight="1">
 
-                    <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
-                        android:src="@drawable/ekstra"/>
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="63704-soccer-ball.json"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -219,10 +229,12 @@
                     android:onClick="galeri"
                     android:orientation="vertical">
 
-                    <ImageView
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
-                        android:src="@drawable/galery" />
+                    <com.airbnb.lottie.LottieAnimationView
+                        android:layout_width="200dp"
+                        android:layout_height="150dp"
+                        app:lottie_loop="true"
+                        app:lottie_autoPlay="true"
+                        app:lottie_fileName="86897-gallery-icon-animation.json"/>
 
                     <TextView
                         android:layout_width="wrap_content"

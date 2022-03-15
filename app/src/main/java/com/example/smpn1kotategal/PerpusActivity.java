@@ -38,8 +38,12 @@ public class PerpusActivity extends AppCompatActivity {
     }
 
     public void buku8(View view) {
+        Intent intent = new Intent(PerpusActivity.this, Buku8Activity.class);
+        startActivity(intent);
     }
 
     public void buku9(View view) {
+        Intent intent = new Intent(PerpusActivity.this, Buku9Activity.class);
+        startActivity(intent);
     }
 }
