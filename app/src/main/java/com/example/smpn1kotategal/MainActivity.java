@@ -81,19 +81,23 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void google(View view) {
-        goToUrl("https://sekolah.data.kemdikbud.go.id/index.php/chome/profil/c06c735a-2df5-e011-9a92-7fef8f49b92d");
+        Intent intent = new Intent(com.example.smpn1kotategal.MainActivity.this, GoogleActivity.class);
+        startActivity(intent);
     }
 
     public void facebook(View view) {
-        goToUrl("https://www.facebook.com/smp1tegal/");
+        Intent intent = new Intent(com.example.smpn1kotategal.MainActivity.this, FacebookActivity.class);
+        startActivity(intent);
     }
 
     public void instagram(View view) {
-        goToUrl("https://www.instagram.com/spensasik/");
+        Intent intent = new Intent(com.example.smpn1kotategal.MainActivity.this, InstagramActivity.class);
+        startActivity(intent);
     }
 
     public void youtube(View view) {
-        goToUrl("https://www.youtube.com/channel/UCbmF3iXtln2X6sXQP9NQtGg");
+        Intent intent = new Intent(com.example.smpn1kotategal.MainActivity.this, YouTubeActivity.class);
+        startActivity(intent);
     }
 
 

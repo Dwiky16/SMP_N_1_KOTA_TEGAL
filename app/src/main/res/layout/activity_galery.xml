@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag3"
+    android:background="@drawable/bag"
     tools:context=".GaleryActivity">
 
     <ScrollView
@@ -64,6 +64,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="40dp"
+                            android:layout_marginRight="20dp"
                             android:textStyle="bold"
                             android:textSize="15dp"
                             android:text="KEGIATAN PEMILIHAN CALON &amp; WAKIL KETUA OSIS">
@@ -115,6 +116,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="40dp"
+                            android:layout_marginRight="20dp"
                             android:textStyle="bold"
                             android:textSize="15dp"
                             android:text="KEGIATAN FUN BIKE GURU &amp; STAF SMP 1 TEGAL">
@@ -130,6 +132,7 @@
 
                 <!--                            pembuka menu 3-->
                 <androidx.cardview.widget.CardView
+                    android:onClick="vaksin"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_rowWeight="1"
@@ -156,7 +159,7 @@
                             android:layout_gravity="center"
                             android:layout_marginRight="10dp"
                             android:layout_marginTop="10dp"
-                            android:src="@drawable/campingtent">
+                            android:src="@drawable/inject">
 
                         </ImageView>
 
@@ -165,14 +168,60 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:layout_marginLeft="40dp"
+                            android:layout_marginRight="20dp"
                             android:textStyle="bold"
                             android:textSize="15dp"
-                            android:text="ALBUM KEGIATAN ...">
+                            android:text="KEGIATAN VAKSINASI SISWA &amp; SISWI SMP 1 TEGAL">
 
                         </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
                 <!--                            penutup menu 3-->
+                <androidx.cardview.widget.CardView
+                    android:onClick="gebyar"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="#ADFF2F"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_margin="10dp"
+                            android:layout_gravity="center"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/decoration">
+
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="40dp"
+                            android:layout_marginRight="20dp"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:text="GEBYAR KREATIVITAS SEKOLAH PENGGERAK">
+
+                        </TextView>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
 
             </GridLayout>
         </LinearLayout>

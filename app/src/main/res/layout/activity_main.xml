@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag3"
+    android:background="@drawable/bag"
     tools:context=".MainActivity">
 
     <ScrollView
@@ -29,13 +29,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/poster2" />
+                        android:src="@drawable/header" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:scaleType="fitXY"
-                        android:src="@drawable/poster1" />
+                        android:src="@drawable/poster2" />
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -78,7 +78,7 @@
                         android:layout_height="wrap_content"
                         android:text="PROFIL"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 
@@ -106,7 +106,7 @@
                         android:layout_height="wrap_content"
                         android:text="GURU"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -144,7 +144,7 @@
                         android:layout_height="wrap_content"
                         android:text="FASILITAS"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -172,7 +172,7 @@
                         android:layout_height="wrap_content"
                         android:text="E-PERPUS"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -211,7 +211,7 @@
                         android:layout_height="wrap_content"
                         android:text="EKSTRA"
                         android:gravity="center"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="20dp"
                         android:textStyle="bold"/>
 
@@ -239,7 +239,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="GALERY"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="20dp"
                         android:textStyle="bold" />
 

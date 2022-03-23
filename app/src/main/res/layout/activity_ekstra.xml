@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag3"
+    android:background="@drawable/bag"
     tools:context=".EkstraActivity">
 
     <FrameLayout
@@ -21,32 +21,14 @@
                 android:orientation="vertical">
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="195dp">
+                    android:layout_height="188dp">
 
-                    <com.smarteist.autoimageslider.SliderView
-                        android:id="@+id/image_slider"
+                    <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="188dp"
-                        app:sliderAnimationDuration="1200"
-                        app:sliderAutoCycleDirection="back_and_forth"
-                        app:sliderAutoCycleEnabled="true"
-                        app:sliderIndicatorAnimationDuration="700"
-                        app:sliderIndicatorGravity="center_horizontal|bottom"
-                        app:sliderIndicatorMargin="15dp"
-                        app:sliderIndicatorOrientation="horizontal"
-                        app:sliderIndicatorPadding="3dp"
-                        app:sliderIndicatorRadius="2dp"
-                        app:sliderIndicatorSelectedColor="#5A5A5A"
-                        app:sliderIndicatorUnselectedColor="#FFF"
-                        app:sliderScrollTimeInSec="2"
-                        app:sliderStartAutoCycle="true" />
+                        android:layout_height="match_parent"
+                        android:src="@drawable/poster2" />
 
                 </RelativeLayout>
-
-                <androidx.core.widget.NestedScrollView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingviewBehavior">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -154,12 +136,12 @@
                                     android:layout_height="120dp"
                                     app:cardCornerRadius="15dp"
                                     android:layout_marginTop="20dp"
-                                    android:onClick="futsal">
+                                    android:onClick="basket">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#008000"
+                                        android:background="#00008B"
                                         android:padding="10dp">
 
                                         <TextView
@@ -167,7 +149,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="10dp"
                                             android:layout_marginTop="10dp"
-                                            android:text="Futsal"
+                                            android:text="Basket"
                                             android:textColor="#fff"
                                             android:textSize="30sp"
                                             android:textStyle="bold" />
@@ -177,7 +159,7 @@
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/footballplayers" />
+                                            android:src="@drawable/basketballplayer" />
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -225,7 +207,7 @@
                             <!--                            Penutup Menu 4-->
                         </GridLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>
-                </androidx.core.widget.NestedScrollView>
+
             </LinearLayout>
         </ScrollView>
     </FrameLayout>

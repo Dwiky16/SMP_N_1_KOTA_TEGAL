@@ -23,4 +23,14 @@ public class GaleryActivity extends AppCompatActivity {
         Intent intent = new Intent(com.example.smpn1kotategal.GaleryActivity.this, FunBikeActivity.class);
         startActivity(intent);
     }
+
+    public void vaksin(View view) {
+        Intent intent = new Intent(com.example.smpn1kotategal.GaleryActivity.this, VaksinasiActivity.class);
+        startActivity(intent);
+    }
+
+    public void gebyar(View view) {
+        Intent intent = new Intent(com.example.smpn1kotategal.GaleryActivity.this, GebyarActivity.class);
+        startActivity(intent);
+    }
 }
