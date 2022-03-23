@@ -59,9 +59,9 @@
 
                     <LinearLayout
                         android:layout_width="wrap_content"
+                        android:layout_marginTop="95dp"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
-
 
                                     <ImageView
                                         android:layout_width="wrap_content"
@@ -69,8 +69,27 @@
                                         android:layout_marginLeft="12dp"
                                         android:layout_marginRight="12dp"
                                         android:layout_marginBottom="12dp"
-                                        android:layout_marginTop="80dp"
                                         android:src="@drawable/musholla"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Bahriyah, S.Ag"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -120,6 +139,26 @@
                             android:layout_marginTop="80dp"
                             android:src="@drawable/logo"/>
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Sismiyati, S.Si,M.MPd"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -168,6 +207,73 @@
                             android:layout_marginTop="80dp"
                             android:src="@drawable/labkom"/>
 
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lab.Komputer I"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-M.Faradis, S.Kom"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lab.Komputer II"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Agus Nisfan, M.Kom"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="5dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Lab.Komputer III"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Susyanto"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -199,7 +305,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="LAB.BIOLOGI"/>
+                        android:text="LAB.IPA"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -215,6 +321,26 @@
                             android:layout_marginBottom="12dp"
                             android:layout_marginTop="80dp"
                             android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Indiyah Yuni A., S.Si"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -247,7 +373,7 @@
                         android:textColor="#000"
                         android:textSize="18sp"
                         android:textStyle="bold"
-                        android:text="LAB.FISIKA"/>
+                        android:text="LAB.BHS.INGGRIS"/>
 
                     <LinearLayout
                         android:layout_width="wrap_content"
@@ -263,6 +389,570 @@
                             android:layout_marginBottom="12dp"
                             android:layout_marginTop="80dp"
                             android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Hidayat Adi F., S.Pd"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="RUANG KARAWITAN"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Eny Rinowati, S.Pd"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="RUANG SERBA GUNA"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Siti Zuhriyyah M., M.MPd"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="RUANG UKS"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Drs.Mughofar"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="RUANG OSIS"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Masrukhi, M.PdI"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="KELAS"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Semua  Walikelas"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="RUANG GANTI"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Drs.Abu Syukur"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="SANGGAR PRAMUKA"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Ka.Gudep Pa/Pi"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_rowWeight="1"
+                    android:layout_columnWeight="1"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="12dp"
+                    app:cardCornerRadius="8dp"
+                    app:cardElevation="8dp">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="12dp"
+                        android:src="@drawable/logo"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="25dp"
+                        android:textColor="#000"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:text="GUDANG OR."/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="200dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:layout_marginBottom="12dp"
+                            android:layout_marginTop="80dp"
+                            android:src="@drawable/logo"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="PETUGAS KOORDINATOR/PENANGGUNG JAWAB RUANGAN"
+                            android:textColor="#000"
+                            android:textSize="12sp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_gravity="center"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="-Zamroni, S.Pd"
+                            android:textColor="#000"
+                            android:textSize="11sp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="12dp"
+                            android:textStyle="bold"/>
 
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
