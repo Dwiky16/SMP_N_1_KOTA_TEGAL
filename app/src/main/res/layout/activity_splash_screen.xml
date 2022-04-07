@@ -38,6 +38,21 @@
             app:lottie_autoPlay="true"
             app:lottie_loop="true"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\u00A9Copyright 2022"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mochammad Dwiky Darmawan"
+            android:gravity="center"
+            android:textColor="#000"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

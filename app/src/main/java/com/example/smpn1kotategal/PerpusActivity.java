@@ -46,4 +46,10 @@ public class PerpusActivity extends AppCompatActivity {
         Intent intent = new Intent(PerpusActivity.this, Buku9Activity.class);
         startActivity(intent);
     }
+
+    public void bukulit(View view) {
+        Intent intent = new Intent(PerpusActivity.this, BukuLiterasiActivity.class);
+        startActivity(intent);
+
+    }
 }

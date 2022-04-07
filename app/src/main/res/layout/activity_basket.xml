@@ -44,7 +44,7 @@
                         android:layout_marginLeft="12dp"
                         android:layout_marginRight="12dp"
                         android:layout_marginTop="12dp"
-                        android:src="@drawable/basketballplayer"/>
+                        android:src="@drawable/logobasket"/>
 
                     <TextView
                         android:layout_width="wrap_content"

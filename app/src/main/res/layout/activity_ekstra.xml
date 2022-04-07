@@ -20,13 +20,14 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical">
                 <RelativeLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="188dp">
 
                     <ImageView
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/poster2" />
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/headerekstra" />
 
                 </RelativeLayout>
 
@@ -53,10 +54,10 @@
 
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
-                                    android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    android:layout_height="wrap_content"
                                     android:layout_marginTop="20dp"
-                                    android:onClick="pramuka">
+                                    android:onClick="pramuka"
+                                    app:cardCornerRadius="20dp">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
@@ -75,11 +76,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/campingtent" />
+                                            android:src="@drawable/logocamping" />
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -94,7 +95,7 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="pmr">
 
@@ -115,11 +116,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/firstaidkit" />
+                                            android:src="@drawable/logofirst" />
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -155,11 +156,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/basketballplayer" />
+                                            android:src="@drawable/logobasket" />
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
                             </LinearLayout>
@@ -174,7 +175,7 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
@@ -195,11 +196,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logovolleyball" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -213,14 +214,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#7FFF00"
                                         android:padding="10dp">
 
                                         <TextView
@@ -234,11 +235,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/footballplayers" />
+                                            android:src="@drawable/logofootball" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -252,14 +253,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#5F9EA0"
                                         android:padding="10dp">
 
                                         <TextView
@@ -273,11 +274,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logopencak" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -291,14 +292,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#A9A9A9"
                                         android:padding="10dp">
 
                                         <TextView
@@ -312,11 +313,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logokarate" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -330,14 +331,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#DEB887"
                                         android:padding="10dp">
 
                                         <TextView
@@ -351,11 +352,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logotaekwondo" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -369,14 +370,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#DC143C"
                                         android:padding="10dp">
 
                                         <TextView
@@ -390,11 +391,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logodrum" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -408,14 +409,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#DAA520"
                                         android:padding="10dp">
 
                                         <TextView
@@ -429,11 +430,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logogamelan" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -447,14 +448,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#DB7093"
                                         android:padding="10dp">
 
                                         <TextView
@@ -468,11 +469,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logodace" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -486,14 +487,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#FA8072"
                                         android:padding="10dp">
 
                                         <TextView
@@ -507,11 +508,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logokaraoke" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -525,14 +526,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#D2B48C"
                                         android:padding="10dp">
 
                                         <TextView
@@ -546,11 +547,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/poem" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -564,14 +565,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#FF6347"
                                         android:padding="10dp">
 
                                         <TextView
@@ -585,11 +586,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/newspaper" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -603,14 +604,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#DDA0DD"
                                         android:padding="10dp">
 
                                         <TextView
@@ -624,11 +625,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logeng" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -642,14 +643,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#CD853F"
                                         android:padding="10dp">
 
                                         <TextView
@@ -663,11 +664,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logosains" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -681,14 +682,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#98FB98"
                                         android:padding="10dp">
 
                                         <TextView
@@ -702,11 +703,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logoquran" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -720,14 +721,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#48D1CC"
                                         android:padding="10dp">
 
                                         <TextView
@@ -741,11 +742,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/tambourine" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -759,14 +760,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#BDB76B"
                                         android:padding="10dp">
 
                                         <TextView
@@ -780,11 +781,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logovideo" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>
@@ -798,14 +799,14 @@
                                 <androidx.cardview.widget.CardView
                                     android:layout_width="match_parent"
                                     android:layout_height="120dp"
-                                    app:cardCornerRadius="15dp"
+                                    app:cardCornerRadius="20dp"
                                     android:layout_marginTop="20dp"
                                     android:onClick="volly">
 
                                     <RelativeLayout
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
-                                        android:background="#87CEFA"
+                                        android:background="#8A2BE2"
                                         android:padding="10dp">
 
                                         <TextView
@@ -819,11 +820,11 @@
                                             android:textStyle="bold" />
 
                                         <ImageView
-                                            android:layout_width="150dp"
+                                            android:layout_width="100dp"
                                             android:layout_height="100dp"
                                             android:layout_alignParentRight="true"
                                             android:maxHeight="100dp"
-                                            android:src="@drawable/volleyballplayer" />
+                                            android:src="@drawable/logoparade" />
 
                                     </RelativeLayout>
                                 </androidx.cardview.widget.CardView>

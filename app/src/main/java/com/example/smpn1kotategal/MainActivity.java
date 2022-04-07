@@ -6,36 +6,48 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Toast;
-import android.widget.ViewFlipper;
+
+import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
+import com.smarteist.autoimageslider.SliderAnimations;
+import com.smarteist.autoimageslider.SliderView;
 
 public class MainActivity extends AppCompatActivity {
+
     private long backPress;
     private Toast backToast;
-
-    ViewFlipper viewFlipper;
-    Animation fadein, fadeout;
+    SliderView sliderView;
+    int[] images = {R.drawable.poster2,
+            R.drawable.poster3,
+            R.drawable.poster1,
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        viewFlipper = (ViewFlipper) findViewById(R.id.viewFlipper);
+        sliderView = findViewById(R.id.image_slider);
 
-        fadein = AnimationUtils.loadAnimation(this,R.anim.fade_in);
-        fadeout = AnimationUtils.loadAnimation(this,R.anim.fade_out);
+        SliderAdapter sliderAdapter = new SliderAdapter(images);
 
-        viewFlipper.setInAnimation(fadein);
-        viewFlipper.setOutAnimation(fadeout);
+        sliderView.setSliderAdapter(sliderAdapter);
+        sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
+        sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
+        sliderView.startAutoCycle();
 
-        viewFlipper.setAutoStart(true);
-        viewFlipper.setFlipInterval(5000);
-        viewFlipper.startFlipping();
     }
+
+    public void berita(View view) {
+        Intent intent = new Intent(com.example.smpn1kotategal.MainActivity.this, BeritaActivity.class);
+        startActivity(intent);
+    }
+
 
     @Override
     public void onBackPressed() {
