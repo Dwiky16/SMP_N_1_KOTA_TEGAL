@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bag"
+    android:background="@drawable/bag2"
     tools:context=".GuruActivity">
 
     <ScrollView
@@ -94,7 +94,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KEPALA SEKOLAH"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -134,7 +134,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="WAKA KURIKULUM"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -174,7 +174,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="PP KURIKULUM"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -225,7 +225,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="WAKA KESISWAAN"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -265,7 +265,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="PEMBINA KESISWAAN"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -316,7 +316,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KA. GUDEP"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -367,7 +367,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="WAKA HUMAS"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -407,7 +407,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="PP HUMAS"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -458,7 +458,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="WAKA SARPRAS"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -498,7 +498,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="PP SARPRAS"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -549,7 +549,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KOORDINATOR LINGKUNGAN HIDUP &amp; 9K"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:layout_marginLeft="30dp"
                         android:layout_marginRight="30dp"
                         android:textSize="20sp"
@@ -591,7 +591,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KEPALA PERPUSTAKAAN"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -631,7 +631,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KOORD.PERPUSTAKAAN"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -671,7 +671,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KEPALA LAB.IPA"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -711,7 +711,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KOORD.DAPODIK"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -751,7 +751,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KOORD.PKB"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -791,7 +791,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KOORD.PENILAIAN"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -831,7 +831,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="KEAMANAN"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -871,7 +871,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="TENAGA ADMINISTRASI SEKOLAH"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -952,7 +952,7 @@
                         android:layout_height="wrap_content"
                         android:gravity="center"
                         android:text="TENAGA PENDIDIK"
-                        android:textColor="#FF0000"
+                        android:textColor="#0000CD"
                         android:layout_marginBottom="20dp"
                         android:textSize="20sp"
                         android:textStyle="bold" />
